@@ -1,0 +1,113 @@
+*{box-sizing:border-box;
+	;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+
+}
+body{background: #ECCFB6;
+background: -moz-linear-gradient(left, #ECCFB6 0%, #ECCD95 50%, #EFCFB4 100%);
+background: -webkit-linear-gradient(left, #ECCFB6 0%, #ECCD95 50%, #EFCFB4 100%);
+background: linear-gradient(to right, #ECCFB6 0%, #ECCD95 50%, #EFCFB4 100%);
+
+}
+
+
+
+.claseNavegar { margin: 20px 295px 20px 330px;
+	background: lightyellow;
+	border: 2px solid #1C6EA4;
+	-webkit-box-shadow: inset 5px 5px 31px 9px rgba(255,168,57,0.49); 
+	box-shadow: inset 5px 5px 31px 9px rgba(255,168,57,0.49);
+
+}
+
+
+.claseAside{	margin-right: 998px; padding-bottom: 1px;
+	background: lightyellow;
+	border: 2px solid #1C6EA4;
+	-webkit-box-shadow: inset 5px 5px 31px 9px rgba(255,168,57,0.49); 
+	box-shadow: inset 5px 5px 31px 9px rgba(255,168,57,0.49)
+
+	-moz-transform: translate(1000px, 2px);
+	-webkit-transform: translate(50px, 2px);
+	-o-transform: translate(1000px, 2px);
+	-ms-transform: translate(1000px, 2px);
+	transform: translate(1000px, 2px);}
+
+
+
+
+.claseLiH li { margin: 4px;
+			padding: 4px;
+		display: inline;
+		font-family: 'Crete Round', serif;
+		border: 2px solid #1C6EA4;
+
+		text-decoration: none;
+
+}
+
+.claseA a{color: grey;
+		text-decoration: none;	
+			}
+
+img{border: 5px inset #1C6EA4; margin-left:500px; margin-top: -170px;	}
+
+.clasePA{border-width: 2px;
+	border-style: dashed;
+	border-color: rgba(216,28,104,0.12);
+
+	height: auto;
+	width: 1100px;
+	text-align: justify;
+	padding-left:40px;}
+
+
+.claseP{border: 3px double #891242;}
+
+.claseLP{text-decoration: none; color: grey;}
+
+
+.claseLiH2 li { margin: 4px 4px 15px 2px;
+			padding: 4px; padding-bottom: 10;
+		display: inline-grid;
+		font-family: 'Crete Round', serif;
+		border: 2px solid #1C6EA4;
+
+		text-decoration: none;
+
+}
+
+section{-moz-transform: translate(50px, 0px);
+-webkit-transform: translate(50px, 0px);
+-o-transform: translate(50px, 0px);
+-ms-transform: translate(50px, 0px);
+transform: translate(50px, 0px);
+
+margin-right:100px;}
+
+
+
+.claseParrafoGrande{
+					height: auto;
+		text-align: justify-all;	
+		width:1000px;
+word-wrap: break-word;		
+
+	 }
+
+	 /** estilos elementos con java */
+
+	 .ir-arriba{
+	 	position: fixed;
+	 	z-index: 1;
+	 	right: 5px;
+	 	bottom: 5px;
+        background-image:url('https://cdn-icons-png.flaticon.com/512/57/57093.png');
+        background-repeat:no-repeat;
+        height:40px;
+        width:40px;
+        background-size: 50px 50px;
+        background-position:center;
+        display: none;
+	 }
